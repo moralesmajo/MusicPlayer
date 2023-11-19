@@ -12,7 +12,7 @@ export default function CreatePlaylist() {
                 <MusicBar />
 
                 {/* Contenido*/}
-                <main className="lg:flex-1 h-screen lg:h-full flex flex-col items-center imprima-400 text-white px-10 pt-10 pb-28 lg:p-10 gap-5 overflow-y-auto">
+                <main className="lg:flex-1 h-screen lg:h-full flex flex-col items-center imprima-400 text-white px-10 pt-10 pb-28 lg:p-10 gap-5 overflow-y-auto scrollbar">
                     <div className='flex justify-start w-full lg:px-10 px-15 pb-10 imprima-700'>
                         <a className='text-2xl'>Crear playlist</a>
                     </div>
