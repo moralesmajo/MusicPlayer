@@ -1,12 +1,11 @@
 import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-
 {/* Mobile navbar */ }
 
 function Mnavbar() {
   return (
-    <div className="navbar lg:hidden bg-greenish-black border-b border-b-light-black">
+    <section className="navbar lg:hidden bg-greenish-black border-b border-b-light-black">
       <div className="flex-1">
         <img src="/assets/logo.png" alt="logo" className="w-40 mx-3" />
       </div>
@@ -22,7 +21,7 @@ function Mnavbar() {
           </ul>
         </details>
       </div>
-    </div>
+    </section>
   )
 }
 
