@@ -1,10 +1,10 @@
 import MusicBar from '../../components/Navbar/MusicBar';
 import MobNavbar from '../../components/Navbar/MobNavbar';
-import Button from '../../components/Buttons/Button';
 import Sidebar from '../../components/Navbar/Sidebar';
+import Button from '../../components/Buttons/Button';
 import SearchBar from '../../components/SearchBar/SearchBar';
 
-function Home() {
+export default function Home() {
   return (
     <div className="drawer lg:drawer-open bg-greenish-black">
       <input type="checkbox" className="drawer-toggle" />
@@ -14,7 +14,7 @@ function Home() {
         <MusicBar />
 
         {/* Contenido*/}
-        <div className="lg:flex-1 h-5/6 lg:h-full flex flex-col items-center imprima-400 text-white p-10 gap-5 overflow-y-auto">
+        <main className="lg:flex-1 h-screen lg:h-full flex flex-col items-center imprima-400 text-white px-10 pt-10 pb-28 lg:p-10 gap-5 overflow-y-auto">
           <div className='flex lg:flex-row flex-col w-full imprima-700 lg:px-10 px-15 justify-between lg:items-center gap-4 pb-6'>
             <a className='text-2xl'>Hola, usuario</a>
             <SearchBar />
@@ -34,7 +34,7 @@ function Home() {
           <Button />
           <Button />
           <Button />
-        </div>
+        </main>
       </div>
 
       {/* Sidebar on web */}
@@ -42,5 +42,3 @@ function Home() {
     </div>
   )
 }
-
-export default Home
