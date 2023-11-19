@@ -3,15 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SearchBar() {
     return (
-        <form>
-            <div>
-                <div className="relative w-full">
-                    <input type="search" className="block p-3 w-full lg:w-72 z-20 text-sm text-greenish-black bg-gray-50 rounded-lg focus:border-none" placeholder="Search a song..." required />
-                    <button className="absolute top-0 end-0 p-2.5 h-full rounded-e-lg">
-                        <FontAwesomeIcon className="h-4 w-4" icon={faMagnifyingGlass} style={{ color: "#202120", }} />
-                    </button>
-                </div>
+
+        <form className="flex gap-2">
+            <div className="w-full lg:w-64">
+                <input type="text" className="input bg-white border-none text-greenish-black text-sm rounded-full block w-full h-8" placeholder="Search a song..." required />
             </div>
+            <button className="btn btn-xs h-8 w-8 rounded-full border-none bg-light-green hover:bg-darkest-green active:bg-dark-green">
+                <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#ffffff", }} size="sm" />
+            </button>
         </form>
+
     )
 }

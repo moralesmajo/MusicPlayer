@@ -13,3 +13,26 @@
     font-family: 'Imprima', sans-serif;
     font-weight: 700;
 }
+
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 13px;
+        height: 20px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        border-radius: 100vh;
+        background: #202120;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #4D5B60;
+        border-radius: 100vh;
+        border: 3px solid #202120;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #62696B;
+    }
+}

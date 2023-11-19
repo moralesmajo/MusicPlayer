@@ -16,12 +16,17 @@ export default {
     },
     extend: {
       colors: {
-        "white": "#DFFCE5",
+        "white": "#F1F1F1",
+        "gray": "#4D5B60",
         "greenish-black": "#000501",
         "light-black": "#202120",
+        "lightest-green": "#0C6049",
         "light-green": "#12B587",
+        "dark-green": "#117056",
+        "darkest-green": "#0C6049",
         "light-cyan": "#083B4A",
         "dark-cyan": "#062D38",
+        "darkest-cyan": "#031013",
         "blue": "#20bde9"
       },
     },
