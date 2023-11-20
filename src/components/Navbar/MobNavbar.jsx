@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function Mnavbar() {
   return (
-    <section className="navbar lg:hidden bg-greenish-black border-b border-b-light-black">
+    <section className="navbar lg:hidden bg-gray-900">
       <div className="flex-1">
         <img src="/assets/logo.png" alt="logo" className="w-40 mx-3" />
       </div>
-      <div className="dropdown dropdown-end flex-none">
+      <div className="dropdown dropdown-end flex-none z-50">
         <details>
           <summary tabIndex={0} className="btn btn-ghost btn-circle">
             <FontAwesomeIcon icon={faEllipsisVertical} style={{color: "#dffce5",}} />

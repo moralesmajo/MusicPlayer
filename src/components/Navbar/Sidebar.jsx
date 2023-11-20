@@ -8,7 +8,7 @@ function Sidebar() {
   return (
     <section className="drawer-side border-l-primary-content">
       <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-      <ul className="menu p-4 w-80 min-h-full bg-greenish-black text-white text-base imprima-400 border-r border-r-light-black">
+      <ul className="menu p-4 w-80 min-h-full bg-gray-900 text-white text-base imprima-400 border-r-2 border-r-light-black">
         <img src="/assets/logo.png" alt="logo" className="w-2/3 mx-3 mb-20 hover:cursor-pointer" />
         <li className="rounded-lg hover:bg-dark-cyan active:bg-light-cyan">
           <a className="py-4 gap-6">

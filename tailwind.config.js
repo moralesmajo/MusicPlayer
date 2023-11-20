@@ -18,6 +18,7 @@ export default {
       colors: {
         "white": "#F1F1F1",
         "gray": "#4D5B60",
+        "gray-900": "#121312",
         "greenish-black": "#000501",
         "light-black": "#202120",
         "lightest-green": "#0C6049",
@@ -27,7 +28,8 @@ export default {
         "light-cyan": "#083B4A",
         "dark-cyan": "#062D38",
         "darkest-cyan": "#031013",
-        "blue": "#20bde9"
+        "blue": "#20bde9",
+        "light-blue": "#2288A3",
       },
     },
   },
