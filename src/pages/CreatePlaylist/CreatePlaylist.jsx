@@ -1,6 +1,6 @@
-import MusicBar from '../../components/Navbar/MusicBar';
-import MobNavbar from '../../components/Navbar/MobNavbar';
-import Sidebar from '../../components/Navbar/Sidebar';
+import MusicBar from '../../components/Navbars/MusicBar';
+import MobNavbar from '../../components/Navbars/MobNavbar';
+import Sidebar from '../../components/Navbars/Sidebar';
 
 export default function CreatePlaylist() {
     return (

@@ -35,3 +35,12 @@
         background: #62696B;
     }
 }
+
+.icon-color {
+    color: #0fffff;
+    transition: color 0.05s ease;
+}
+
+.icon-color:hover {
+    color: #e882e8;
+}

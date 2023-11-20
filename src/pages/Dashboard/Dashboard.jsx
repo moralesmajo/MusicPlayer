@@ -1,8 +1,9 @@
-import MusicBar from '../../components/Navbar/MusicBar';
-import MobNavbar from '../../components/Navbar/MobNavbar';
-import Sidebar from '../../components/Navbar/Sidebar';
-import Button from '../../components/Buttons/Button';
+import MusicBar from '../../components/Navbars/MusicBar';
+import MobNavbar from '../../components/Navbars/MobNavbar';
+import Sidebar from '../../components/Navbars/Sidebar';
+
 import SearchBar from '../../components/SearchBar/SearchBar';
+import SongCard from '../../components/SongCards/SongCard';
 
 export default function Home() {
   return (
@@ -22,18 +23,11 @@ export default function Home() {
           <div className='flex justify-start w-full lg:px-10 px-15 imprima-700'>
             <a className='text-2xl'>Canciones</a>
           </div>
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
-          <Button />
+          <SongCard />
+          <SongCard />
+          <SongCard />
+          <SongCard />
+          <SongCard />
         </main>
       </div>
 
